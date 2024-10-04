@@ -1,0 +1,35 @@
+@font-face {
+    font-family:"Norse-Bold";
+    src: url("/fonts/Norse-Bold.otf") format("woff");
+    font-weight: normal;
+    font-style: bold;
+}
+
+html {
+    font-family: "Norse-Bold", Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+body {
+    background-color: hsl(0, 0%, 5%);
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 300px;
+}
+
+img[src*="unsplash.jpg"] {
+    width: 500px;
+    height: 100vh;
+}
+
+img[src*="lined.png"] {
+    position: absolute;
+    top: 10px;   /* Position the logo as needed */
+    left: 10px;  /* Adjust the logo's position */
+    width: 50px; /* Adjust the size of the logo */
+    height: auto;
+    opacity: 0.8; /* Optional: to make the logo slightly transparent */
+}

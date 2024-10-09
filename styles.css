@@ -95,10 +95,19 @@ form>div {
     letter-spacing: 0.05rem;
     margin-left: 40px;
     gap: 80px;
+    margin-bottom: 20px;
 }
 
 #last-name:focus {
     border: 1px solid blue;
     box-shadow: 3px 3px rgb(206, 205, 205);
     outline: none;
+}
+
+#password:invalid {
+    border: 1px solid red;
+}
+
+#confirm-password:invalid {
+    border: 1px solid red;
 }

@@ -100,7 +100,7 @@ form>div {
 
 #last-name:focus {
     border: 1px solid blue;
-    box-shadow: 3px 3px rgb(206, 205, 205);
+    box-shadow: 5px;
     outline: none;
 }
 
@@ -110,4 +110,39 @@ form>div {
 
 #confirm-password:invalid {
     border: 1px solid red;
+}
+
+button {
+    width: 220px;
+    height: 60px;
+    background-color: #596D48;
+    color: #ffffff;
+    border-radius: 7px;
+    font-size: 0.6rem;
+    font-weight: 900;
+    letter-spacing: 0px;
+    border: none;
+}
+form>div:nth-child(5) {
+    margin-left: 0;
+    padding-left: 40px;
+    padding-top: 40px;
+    display: block;
+    background-color: hsl(187, 10%, 100%);
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 80px;
+    height: 30vh;
+    letter-spacing: 0px;
+}
+
+form>div:nth-child(5)>p {
+    margin-top: 30px;
+    font-size: 0.6rem;
+}
+
+form>div:nth-child(5)>p::after {
+    content: "Log in";
+    margin-left: 5px;
+    color: #596D48;
+    font-weight: bold;
 }

@@ -43,13 +43,18 @@
             <div>
                 <div>
                     <label for="password">PASSWORD</label>
-                    <input type="password" id="password" minlength="6" required>
+                    <input type="password" id="password" pattern="\w{6,}" required>
                 </div>
                 <div>
                     <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm-password" minlength="6" required>
+                    <input type="password" id="confirm-password" pattern="\w{6,}" required>
                 </div>
             </div>
+            <div>
+                <button type="submit">Create Account</button>
+                <p>Already have an account?</p>
+            </div>
+            
         </form>
 </body>
 </html>
